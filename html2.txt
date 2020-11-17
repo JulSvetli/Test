@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Форма регистрации</title>
+ </head>
+ <body>
+   <h1>Заполните форму регистрации</h1>
+    <form>
+	 <p>
+	  <label>Логин<input id="loginName" type="text" ></input></label>
+	 </p>
+	 <div>
+	 <p>
+	  <label>Пароль<input type="password" ></input></label>
+	  <button type="sumbmit">Проверить пароль</button>
+	 </p>
+	 </div>
+	 <p>
+	  <label>Электронная почта<input type="text" ></input></label>
+	 </p>
+	 <div>
+	 <p>
+	  <label>Город</label>
+	  <select>
+	   <option>Сан-Диего</option>
+	   <option>Сан-Франциско</option>
+	  </select>
+	 </p>
+	 </div>
+	 <div>
+	 <p>
+	  <label>Пол</label>
+	   <input type="radio" vaiue="1" name="myRadio"> M
+	   <input type="radio" vaiue="2" name="myRadio"> Ж
+	 </p> 
+	 </div> 
+	 <p>
+	  <label>Согласен с условием регистрации<input type="checkbox" ></input></label>
+	 </p>
+	 <hr/>
+	 <button type="sumbmit" >Регистрация</button>
+	</form>
+ </body>
+</html>
